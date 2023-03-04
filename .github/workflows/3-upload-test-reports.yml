@@ -56,7 +56,7 @@ jobs:
           from_step: 3
           to_step: 4
           branch_name: ci
-            build:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
